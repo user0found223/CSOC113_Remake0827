@@ -7,17 +7,19 @@ public class StudentInfo2 {
     // Relevant Codes
     // }
     // Declare Attributes
+
     String FN;
-    String LN;
+    String LN ;
     int ID;
     double CGP;
-    String address;
     public static void main(String[] args){
         // Reference Variable or StudentInfo2-type variable
         StudentInfo2 st_1;
         st_1 = new StudentInfo2();
-        int i;
-        i = 10;
-        System.out.println("Hello Java!");
+        StudentInfo2 st_2;
+        st_2 = new StudentInfo2();
+        System.out.println(st_1);
+        System.out.println(st_2);
+
 
     }   }
