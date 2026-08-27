@@ -13,7 +13,11 @@ public class StudentInfo2 {
     double CGP;
     String address;
     public static void main(String[] args){
-
+        // Reference Variable or StudentInfo2-type variable
+        StudentInfo2 st_1;
+        st_1 = new StudentInfo2();
+        int i;
+        i = 10;
         System.out.println("Hello Java!");
 
     }   }
